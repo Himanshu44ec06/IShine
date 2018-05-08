@@ -7,6 +7,8 @@ var  leadSchema  = new mongoose.Schema({
      expectedprice  : {
          type : Number
      },
+     bucket : { type: mongoose.Schema.ObjectId, ref: 'Bucket' },
+     contact : { type: mongoose.Schema.ObjectId, ref: 'Contact' },
      expectedclosingdate  : {
          type : Date
     },
