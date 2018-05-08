@@ -1,0 +1,16 @@
+{
+  "name": "crmmodule",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^5.1.1",
+    "mongoose": "^5.0.17",
+    "pm2": "^2.10.3"
+  }
+}
