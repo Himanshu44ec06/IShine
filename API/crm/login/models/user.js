@@ -27,6 +27,10 @@ var  userSchema  =  new mongoose.Schema({
         require: true,
         minlength: 6
     },
+    status : {
+        type : Number, 
+        default : 1
+    },
     tokens: [{
         access: {
             type: String,
@@ -44,4 +48,4 @@ var  userSchema  =  new mongoose.Schema({
 
 var  User  =  mongoose.model('User', userSchema);
 
-module.exports = {User}
+module.exports  =  User;
